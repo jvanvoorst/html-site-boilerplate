@@ -5,20 +5,23 @@ Header
 */
 
 .head {
-	height: 250px;
+	height: 225px;
 	background-color: #2ecc71;
-	border-bottom: 10px solid #27ae60;
+	border-bottom: 5px solid #27ae60;
 	position: relative;
 	}
 .nav {
 	background-color: #34495e;
-	border-bottom: 10px solid #2c3e50;
+	border-bottom: 5px solid #2c3e50;
 	height: 40px;
 	text-align: right;
 	}
+.nav nav {
+	padding-top: 12px;
+}
 .head h2 {
 	color: white;
-	bottom: 10px;
+	bottom: -8px;
 	left: 10px;
 	position: absolute;
 }
