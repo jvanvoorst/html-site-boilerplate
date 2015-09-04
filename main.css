@@ -38,3 +38,71 @@ Header
 body {
 	background-color: #95a5a6;
 }
+
+/*
+===================================================
+Article
+===================================================
+*/
+
+.article-body {
+	width: 85%;
+    margin: auto;
+    font-size: .75rem;
+    line-height: 1.5em;
+}
+.article-header {
+	padding: 9px 0 9px 25px;
+}
+.article-body span {
+	color: red;
+}
+
+/*
+===================================================
+Section
+===================================================
+*/
+
+.section-title {
+	display: inline-block;
+    border-bottom: thin solid lightgrey;
+    width: 90%;
+    padding: 6px 0 7px 8px;
+    margin-left: 18px;
+    margin-bottom: 5px;
+}
+.section-body {
+	width: 85%;
+    margin: auto;
+    font-size: .75rem;
+    line-height: 1.5em;
+}
+
+/*
+===================================================
+Section
+===================================================
+*/
+
+.table td, th {
+	border: thin solid lightgrey;
+}
+.table th {
+	background-color: #95a5a6;
+	background-color: #95a5a6;
+    font-size: .8em;
+    height: 33px;
+    text-align: left;
+    padding-left: 5px;
+}
+.table {
+	width: 90%;
+    margin: auto;
+}
+.table td {
+	font-size: .8em;
+}
+.table th:last-child {
+	    padding: 0 40px 0 40px;
+}
