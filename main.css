@@ -1,3 +1,15 @@
+body {
+	background-color: #7f8c8d;
+}
+.strong-header {
+	padding: 9px 0 9px 25px;
+}
+.main-column {
+	width: 500px;
+	background-color: #ecf0f1;
+	margin: auto;
+}
+
 /*
 ===================================================
 Header
@@ -30,14 +42,6 @@ Header
 	color: white;
 	padding: 10px 10px 10px 10px;
 }
-.main-column {
-	width: 500px;
-	background-color: white;
-	margin: auto;
-}
-body {
-	background-color: #95a5a6;
-}
 
 /*
 ===================================================
@@ -50,9 +54,6 @@ Article
     margin: auto;
     font-size: .75rem;
     line-height: 1.5em;
-}
-.article-header {
-	padding: 9px 0 9px 25px;
 }
 .article-body span {
 	color: red;
@@ -81,7 +82,7 @@ Section
 
 /*
 ===================================================
-Section
+Table
 ===================================================
 */
 
@@ -89,8 +90,7 @@ Section
 	border: thin solid lightgrey;
 }
 .table th {
-	background-color: #95a5a6;
-	background-color: #95a5a6;
+	background-color: #bdc3c7;
     font-size: .8em;
     height: 33px;
     text-align: left;
@@ -103,6 +103,189 @@ Section
 .table td {
 	font-size: .8em;
 }
-.table th:last-child {
-	    padding: 0 40px 0 40px;
+.table td:last-child {
+	width: 20%;
+	text-align: center;
+}
+.table td:first-child {
+	width: 13%;
+	text-align: center;
+}
+.table .btn {
+	background-color: #3498db;
+	background-color: #3498db;
+    padding: 4px 15px 4px 15px;
+}
+.table a {
+	text-decoration: none;
+	color: white;
+}
+.table td:nth-child(2) {
+	padding: 5px 10px 5px 10px;
+}
+
+/*
+===================================================
+Code Box
+===================================================
+*/
+
+.code-box {
+	background-color: #bdc3c7;
+	width: 90%;
+    margin: auto;
+    height: 85px;
+}
+.code-box p {
+	font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+	font-size: .75em;
+    padding: 25px 0 0 35px;
+}
+
+/*
+===================================================
+Image
+===================================================
+*/
+
+.image {
+	width: 90%;
+    padding-left: 26px;
+}
+
+/*
+===================================================
+Image
+===================================================
+*/
+
+.list {
+	font-size: .75em;
+    line-height: 1.7em;
+    width: 85%;
+}
+
+/*
+===================================================
+Aside
+===================================================
+*/
+
+.aside {
+	font-size: 0.8em;
+    color: grey;
+    padding: 20px 0 43px 21px;	
+}
+
+/*
+===================================================
+Comments Input
+===================================================
+*/
+
+.form {
+    width: 90%;
+    margin-left: 18px;
+}
+.form-header {
+	font-size: .7em;
+	border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding: 30px 0 40px 0;
+}
+.fieldset-user label {
+	width: 18%;
+    float: left;
+    text-align: right;
+    padding: 4px 5px 0 0;
+}
+.fieldset-user input {
+	width: 74%;
+    height: 21px;
+    margin-bottom: 5px;
+}
+.fieldset-comment input {
+	width: 100%;
+    height: 145px;
+    margin-left: 4px;
+}
+.form-header legend {
+	padding: 0 10px 0 10px;
+	margin: 0 10px 0 14px;
+	color: grey;
+}
+.submit-btn {
+	background-color: #c0392b;
+    width: 90%;
+    height: 41px;
+    margin: auto;
+}
+.submit-btn a {
+	color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    font-size: .8em;
+}
+
+/*
+===================================================
+Comments
+===================================================
+*/
+
+.section-comments {
+	padding: 38px 0 30px 0;
+    width: 90%;
+    margin: auto;	
+}
+.section-comments span {
+	color: grey;
+    font-size: 0.8em;
+}
+.section-comments p {
+font-size: .8em;
+}
+.comments-image {
+	float: left;
+}
+.section-comments h5 {
+	margin-bottom: 4px;
+}
+.section-comments img {
+	padding-right: 17px;
+}
+.section-comments-indent {
+	margin-left: 27px;
+    border-left: thin solid lightgrey;
+    padding-left: 14px;
+}
+
+/*
+===================================================
+Sidebar
+===================================================
+*/
+
+.sidebar {
+	background-color: #ecf0f1;
+    width: 16%;
+    height: 188px;
+    position: fixed;
+    top: 275px;
+    right: 78px;
+    border-bottom: 3px solid #2c3e50;
+}
+.sidebar h5 {
+	font-size: .75em;
+    padding-left: 9px;
+    margin-bottom: 8px;
+    margin-top: 13px;
+}
+.sidebar span {
+	font-size: .7em;
+    color: grey;
+    padding-left: 23px;
 }
